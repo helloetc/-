@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(./images/251.png);
+	background-size: 100%;
+}
+#wrap{
+	position: relative;
+	margin: auto;
+	width: 80%;
+}
+#head{	
+	background-image: url(./images/351.png);
+	height: 150px;
+}
+#menu{
+	height: 35px;
+	/*border: solid;*/
+	background:url(./images/928.png) no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+#menu>a{
+	display: inline-block;
+	margin:3%;
+	margin-top: 5px;
+}
+#menu>a:hover{
+	color: red;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+
+#Tu{
+	width: 63%;
+	height: 450px;
+	float: left;
+	border: solid 1px;
+	background-image: url(./images/1_1.jpg);
+	background-size: cover;
+
+}
+#Tu2{
+	width: 63%;
+	height: 450px;
+	float: left;
+	border: solid 1px;
+	background-image: url(./images/2_1.jpg);
+	background-size: cover;
+	
+}
+#Tu3{
+	width: 63%;
+	height: 450px;
+	float: left;
+	border: solid 1px;
+	background-image: url(./images/3_1.jpg);
+	background-size: cover;
+	
+}
+#JieShao{
+	width: 33%;
+	float: left;
+	overflow: auto;
+	/*border: solid;*/
+
+}
+/*#LinShui{
+	border: solid;
+	width: 100px;
+	height: 50px;
+
+}*/
+#mjid{
+	position:absolute;
+	top: 195px;
+	left: 130px;
+	text-align: center;
+	width: 500px;
+
+}
+#mjid>input{
+	margin:0 9%;
+	background-color:transparent;
+	border: solid;
+    border-style:none;
+	font-size: 1.1em;
+	color: red;
+}
+#mjid>input:hover{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+#footer{
+	clear: both;
+	text-align: center;
+	font-size: 18px;
+	background: #778;
+	color: #fff;
+
+}
+#qingxiushan{
+	display: none;
+}
+#YiLingYan{
+	display: none;
+}

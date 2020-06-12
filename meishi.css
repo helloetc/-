@@ -1,0 +1,59 @@
+body{
+	    background: url(./images/251.png);
+	    background-size: 100%;
+		
+}
+#head{
+	text-align: center;
+}
+#wrap{
+	margin: auto;
+	text-align: left;
+	width: 80%;
+	background-image: url(./images/801.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+#menu{
+	height: 35px;
+	/*border: solid;*/
+	background:url(./images/928.png) no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+#menu>a{
+	display: inline-block;
+	text-decoration: none;
+	margin:3%;
+	margin-top: 5px;
+}
+
+.shiwu{
+	border: solid ;
+	height: 250px;
+}
+.tu{
+	text-align: center;
+	float: left;
+	height: 250px;
+	width: 31%;
+	border: solid 2px;
+
+}
+.zi{
+	float: left;
+	width: 60%;
+	height: 250px;
+
+}
+img{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+	font-size: 1.2em;
+}
+a:hover{
+	color: red;
+}

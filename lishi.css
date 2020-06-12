@@ -1,0 +1,67 @@
+
+body{
+	    background: url(./images/251.png);
+	    background-size: 100%;
+		
+}
+#head{
+	text-align: center;
+}
+#wrap{
+	margin: auto;
+	text-align: left;
+	width: 65%;
+	/*background-image: url(./images/801.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+
+}
+#menu{
+	height: 35px;
+	/*border: solid;*/
+	background:url(./images/928.png) no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+#menu>a{
+	display: inline-block;
+	text-decoration: none;
+	margin:3%;
+	margin-top: 5px;
+}
+#qita{
+	float: left;
+}
+#top{
+	border: solid 1px;
+}
+#tu{
+	height: 160px;
+	border: solid 1px;
+	float: left;
+}
+#wenzi1{
+	padding-left: 20px;
+	float: left;
+	width: 50%;
+	border: solid 1px;
+	height: 160px;
+}
+#wenzi2{
+	border: solid 1px;
+}
+
+img{
+	height: 100%;
+}
+#menu>a{
+	
+	font-size: 1.2em;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+
+	color: red;
+}

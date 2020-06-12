@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="yanzheng.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="yanzheng.js"></script>
+	<title></title>
+</head>
+<body>
+	<div id="wrap">
+		<div id="head"></div>
+		<div id="menu">
+			<a href="index.html">返回首页</a>
+		</div>
+		<div id="main">
+		<br>
+		<h2 style="padding-left: 45%; ">用户注册</h2>
+		<br>
+		<br>
+		<br>
+	<form >
+		<div id="left">
+			<ul>
+			<li><label>用户名：</label></li>
+			<br>
+			<br>
+			<li><label>电子邮箱：</label></li>
+			<br>
+
+			<li><label>密码：</label></li>
+			<br>
+			<br>
+
+			<li><label>重复密码：</label></li>
+			<br>
+			<br>
+
+			<li><label>身份证号码：</label></li>
+			<br>
+			<br>
+
+			<li><label>联系电话：</label></li>
+			</ul>
+
+		</div>
+		<div id="right">
+			<ul>
+			<li><input type="text" name="username" id="username"><label id="userWarn">*<span class="FornSize">以英文开头，4-16个英文、数字或下划线！</span> </label> </li>
+			<br>
+			<br>
+			
+			<li><input type="text" name="email" id="emailId"><label id="emailWarn">*</label></li>
+			<br>
+			<br>
+			
+			<li><input type="password" name="password" id="psd"><label id="psdWarn">*<span class="FornSize">英文字母、数字、下划线、6~24个字符</span> </label></li>
+			<br>
+			<br>
+			
+			<li><input type="password" name="repassword" id="repsd"><label id="pstDeficul">*</label></li>
+			<br>
+			<br>
+			
+			<li>
+				<input type="text" name="theid" id="theiD">
+				<label id="theidWarn" class="FornSize">
+				长度为18位数字
+			</label> 
+			</li> 
+			<br>
+			<br>
+			<br>
+			
+			<li>
+				<input type="text" name="pone" id="thePone">
+				<label class="FornSize" id="PWarn">以1开头且为11位数字
+				</label>
+			</li>
+			<br>
+			<br>
+			
+			</ul>
+			<ul>
+				<li><input type="button" name="btn1" value="提交" id="verify" onclick="Theverify()">
+					<input type="reset" name="btn2" value="重置">
+				</li>
+
+			</ul>
+			
+		</div>
+	</form>
+	</div>
+	</div>
+
+</body>
+</html>
